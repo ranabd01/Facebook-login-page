@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background: #f0f2f5;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  height: 100vh;
+}
+
+#facebook {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.7rem;
+}
+#facebook img {
+  width: 350px;
+  height: auto;
+  margin-left: -44px;
+}
+#facebook h2 {
+  font: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+#facebook .box {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 30px;
+  width: 396px;
+  font-family: "Poppins", sans-serif;
+  color: #111;
+}
+#facebook .box form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+#facebook .box form input[type=submit] {
+  background: #1877f2;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+#facebook .box .forget-p {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  color: #1877f2;
+  margin: 10px 0;
+}
+#facebook .box hr {
+  color: #ccc;
+  height: 0.1px;
+  display: block;
+  margin: 10px 0;
+}
+#facebook .box .signup {
+  text-align: center;
+  margin: 20px 0;
+}
+#facebook .box p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+#facebook .box .btn {
+  background: #42b72a;
+  padding: 15px 17px;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
